@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var divisions: [Division] = Division.examples
+    var currentDate: Date = Date()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(divisions, id: \.self.code) { division in
+                Text("Div: \(division.code)")
+                    .padding()
+            }
+            .navigationTitle(currentDate.getShortDate())
+        }
     }
 }
 
