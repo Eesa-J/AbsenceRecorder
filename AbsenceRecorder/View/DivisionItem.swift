@@ -18,6 +18,7 @@ struct DivisionItem: View {
     }
 }
 
+
 struct DivisionItem_Previews: PreviewProvider {
     static var previews: some View {
         DivisionItem(division: Division(code: "CComX-1"))
