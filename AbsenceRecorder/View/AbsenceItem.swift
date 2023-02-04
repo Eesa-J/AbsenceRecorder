@@ -15,9 +15,9 @@ struct AbsenceItem: View {
             Text(studentAbsence.student.forename)
             Spacer()
             if studentAbsence.isAbsent == true{
-                    Button("Absent", action: { toggleAbsent() })
+                    Button("🔴", action: { toggleAbsent() })
             } else {
-                Button("Present", action: { toggleAbsent() })
+                Button("🟢", action: { toggleAbsent() })
             }
         }
     }
