@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB659CFD29A8D1B200C24306 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB659CFC29A8D1B200C24306 /* FileManager.swift */; };
 		BB9A3855298DC5BA00C6B669 /* AbsenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A3854298DC5BA00C6B669 /* AbsenceItem.swift */; };
 		BB9A3857298DCA8800C6B669 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A3856298DCA8800C6B669 /* StudentAbsence.swift */; };
 		BB9A3859298DCD3900C6B669 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A3858298DCD3900C6B669 /* Absence.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB659CFC29A8D1B200C24306 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		BB9A3854298DC5BA00C6B669 /* AbsenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceItem.swift; sourceTree = "<group>"; };
 		BB9A3856298DCA8800C6B669 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
 		BB9A3858298DCD3900C6B669 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				BBAA28772989D9DA0072D09D /* Date.swift */,
+				BB659CFC29A8D1B200C24306 /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				BBAA28492989C6390072D09D /* DivisionsView.swift in Sources */,
 				BBAA28782989D9DA0072D09D /* Date.swift in Sources */,
 				BBC7B291298C7E9200E33B74 /* RootTabView.swift in Sources */,
+				BB659CFD29A8D1B200C24306 /* FileManager.swift in Sources */,
 				BB9A3857298DCA8800C6B669 /* StudentAbsence.swift in Sources */,
 				BBAA28732989C6F80072D09D /* Student.swift in Sources */,
 				BB9A3855298DC5BA00C6B669 /* AbsenceItem.swift in Sources */,
